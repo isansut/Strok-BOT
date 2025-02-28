@@ -86,8 +86,8 @@ async function runAccount(authToken, index) {
         await validatePrice(authToken, msgHash);
     }
 
-    console.log(`✅ Verified messages: ${validCount}\n`);
-    console.log(`---- End of Account ${index + 1} ------\n`);
+    console.log(`✅ Verified messages: ${validCount}`);
+    console.log(`---- End of Account ${index + 1} ------`);
 }
 
 
